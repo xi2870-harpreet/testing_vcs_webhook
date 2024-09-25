@@ -1,0 +1,4 @@
+touch test
+echo -e "$sshkeynew" > /root/test
+touch test1
+echo "$sshkeynew" > /root/test1
