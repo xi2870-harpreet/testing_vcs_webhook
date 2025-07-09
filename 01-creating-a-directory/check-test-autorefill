@@ -1,0 +1,12 @@
+# #!/bin/bash
+# set -euo pipefail
+
+# # echo "🔍 Checking if _SANDBOX_ID is present in /etc/profile.d/instruqt-env.sh..."
+
+# # if grep -q "_SANDBOX_ID" /etc/profile.d/instruqt-env.sh; then
+# #   echo "✅ Found _SANDBOX_ID in instruqt-env.sh"
+# # else
+# #   fail-message "_SANDBOX_ID is missing in /etc/profile.d/instruqt-env.sh. Make sure it's being set in an earlier challenge or setup script."
+# #   exit 1
+# # fi
+# cat /etc/profile.d/instruqt-env.sh && exit 1

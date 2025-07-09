@@ -1,0 +1,2 @@
+touch hello.txt
+cat /etc/profile.d/instruqt-env.sh

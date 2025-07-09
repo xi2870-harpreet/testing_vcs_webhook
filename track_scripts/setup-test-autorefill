@@ -1,0 +1,18 @@
+# # touch test.txt
+# # echo $TEST >> test.txt
+# echo $INSTRUQT_AUTH
+# agent variable set TOKEN $INSTRUQT_AUTH
+# touch token.txt
+# agent variable get TOKEN > token.txt
+
+# Wait until file is available (in case of timing delay)
+while [ ! -f /tmp/shared-token.sh ]; do
+  sleep 1
+done
+
+source /tmp/shared-token.sh
+echo "✅ Received token: $API_TOKEN"
+
+cat /etc/profile.d/instruqt-env.sh
+
+

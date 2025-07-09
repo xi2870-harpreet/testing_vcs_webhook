@@ -1,0 +1,4 @@
+
+
+echo "API_TOKEN=abc123" > /tmp/shared-token.sh
+scp -o StrictHostKeyChecking=no /tmp/shared-token.sh root@test-autorefill:/tmp/

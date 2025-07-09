@@ -1,29 +1,29 @@
 slug: challengetest-copy
 id: o9hqjp2ut9gg
-revision: -62135596800
+revision: 1
 title: Sandbox container Copy
 teaser: Get started quickly with a single container-based sandbox host
 description: Get started quickly with a container-based sandbox host. Choose a container
   when you need a fast, lightweight Linux system.
-icon: https://cdn.instruqt.com/assets/templates/ubuntu.png
+icon: ""
 tags: []
 owner: instruqt-support
 developers:
 - harpreet@instruqt.com
 instructors: []
-idle_timeout: 600
-timelimit: 2700
+show_timer: true
+idle_timeout: 0
+timelimit: 1800000
 lab_config:
-  overlay: false
-  width: 33
-  position: right
   extend_ttl: 0
   sidebar_enabled: true
   hideStopButton: false
   feedback_recap_enabled: true
   feedback_tab_enabled: false
-  lab_v2: true
   theme:
     name: original
-  override_challenge_layout: false
+  override_challenge_layout: true
+  default_layout: AssignmentRight
+  default_layout_sidebar_size: 15
   loadingMessages: true
+enhanced_loading: null
