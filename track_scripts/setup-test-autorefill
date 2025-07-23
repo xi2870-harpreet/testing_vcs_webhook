@@ -1,4 +1,4 @@
-# # touch test.txt
+ touch test.txt
 # # echo $TEST >> test.txt
 # echo $INSTRUQT_AUTH
 # agent variable set TOKEN $INSTRUQT_AUTH
@@ -14,5 +14,6 @@ source /tmp/shared-token.sh
 echo "✅ Received token: $API_TOKEN"
 
 cat /etc/profile.d/instruqt-env.sh
+echo $INSTRUQT_TRACK_INVITE_ID >> test.txt
 
 
