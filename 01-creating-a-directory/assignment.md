@@ -42,6 +42,12 @@ tabs:
   title: rafayterminal
   type: terminal
   hostname: rafaycontainer
+- title: Nginx
+  type: service
+  hostname: test-autorefill
+  path: /
+  port: 80
+  new_window: true
 difficulty: basic
 timelimit: 600
 lab_config:
