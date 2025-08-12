@@ -1,9 +1,9 @@
-#!/bin/bash
-set -euo pipefail
+# #!/bin/bash
+# set -euo pipefail
 
-# Safely write the export line
-echo "export _SANDBOX_ID=${_SANDBOX_ID}" > /etc/profile.d/instruqt-env.sh
-chmod +x /etc/profile.d/instruqt-env.sh
+# # Safely write the export line
+# echo "export _SANDBOX_ID=${_SANDBOX_ID}" > /etc/profile.d/instruqt-env.sh
+# chmod +x /etc/profile.d/instruqt-env.sh
 
-# Debug output to verify
-cat /etc/profile.d/instruqt-env.sh && exit 1
+# # Debug output to verify
+# cat /etc/profile.d/instruqt-env.sh && exit 1
