@@ -42,7 +42,8 @@ tabs:
   title: rafayterminal
   type: terminal
   hostname: rafaycontainer
-- title: Nginx
+- id: mptijok3ezr2
+  title: Nginx
   type: service
   hostname: test-autorefill
   path: /
