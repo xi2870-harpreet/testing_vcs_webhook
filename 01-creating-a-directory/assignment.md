@@ -49,6 +49,10 @@ tabs:
   path: /
   port: 80
   new_window: true
+- title: test
+  type: website
+  url: http://test.${_SANDBOX_ID}.instruqt.io
+  new_window: true
 difficulty: basic
 timelimit: 600
 lab_config:
