@@ -49,7 +49,8 @@ tabs:
   path: /
   port: 80
   new_window: true
-- title: test
+- id: 1bx6wqpsalyk
+  title: test
   type: website
   url: http://test.${_SANDBOX_ID}.instruqt.io
   new_window: true
