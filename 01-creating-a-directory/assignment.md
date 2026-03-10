@@ -1,5 +1,5 @@
 ---
-slug: creating-a-directory
+slug: creating-a-directory-test
 id: 1mi3fgjdegqq
 type: challenge
 title: Creating a directory
